@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+h4 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    text-transform:uppercase;
+    color:#FAC2C7;
+    font-size:20px;
+}
+
+footer {
+    background-color: #29772c;
+    padding: 20px 5% 62px 5%;
+    text-align:center;
+    display: flex;
+    
+    
+}
+
+footer p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #FFF5F5;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+footer span {
+    color: #FAC2C7;
+}
+
+.footer-column-1 img {
+    padding-top: 50%;
+    width:50%;
+}
+
+.footer-column-1, .footer-column-2, .footer-column-3, .footer-column-4 {
+    flex: 1;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.parent-site {
+    margin-top:30px;
+}
+
+.parent-site a {
+    color:  #FAB37A;
+}
+
+.parent-site a:hover {
+    color: #FAC2C7;
+}
+
+.social-media {
+    display:flex;
+    gap:1.25em;
+    justify-content:center;
+    margin-top:2em;
+}
+
+.social-media img {
+    border-radius:0;
+    height:30px;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+    transition-duration:.2s;
+}
+
+footer ul {
+    display:flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    margin:10px 0.5em 0 0.5em;
+}
+
+footer a {
+    font-family: 'Source Sans 3', sans-serif;
+    color:#FFF5F5;
+    font-weight: 600;
+    text-decoration:none;
+    font-size:1.1em;
+    line-height: 22px;
+    transition: opacity 150ms ease-in-out;
+}
+  
+footer a:hover {
+    color:#FAB37A;
+}
+
+@media screen and (min-width: 900px) {
+    .healthcare-grid {
+        display:inline-flex;
+        gap: 40px;
+        margin-left:11%;
+        margin-right:11%;
+    }
+
+    .grid-item {
+        text-align:left;
+    }
+
+    .left-column {
+        width:50%;
+    }
+
+    .right-column {
+        width:50%;
+    }
+
+    footer {
+        display:flex;
+        gap: 8em;
+        text-align:left;
+        padding: 80px 5% 30px 6%;
+    }
+
+    footer ul {
+        display:inline;
+    }
+
+    footer li {
+        margin:10px 0 0 0;
+    }
+
+    .footer-column-1 {
+        width:15%;
+        margin-right:2em;
+        align-items:center;
+        text-align:center;
+    }
+
+    .footer-column-1 img {
+        width:100%;
+        margin-bottom:1em;
+        margin-top: -1.75em;
+    }
+
+    .footer-column-1 p {
+        margin-bottom: 0;
+    }
+
+    .parent-site {
+        margin-top:70px;
+    }
+
+    .social-media {
+        justify-content:left;
+        margin-top:55px;
+    }
+}
